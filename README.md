@@ -13,5 +13,5 @@ docker build . --tag texlive
 Aliases are useful to invoke commands in the container:
 
 ```sh
-alias pdflatex="docker run -v \$(pwd):/home/ -it texlive pdf2latex"
+alias pdflatex="docker run -v \$(pwd):/home/ -it texlive pdflatex"
 ```
