@@ -35,3 +35,10 @@ You can also use freely other common texlive-distribution programs as well inste
 > # OR
 > podman run --rm -v "$(pwd):/home/project:z" -w /home/project texlive pdflatex
 > ```
+
+Additionally, podman convenience bash scripts are provided so you can immediately use the
+docker container without using any docker / podman commands!
+
+```sh
+./pdflatex <options>
+```

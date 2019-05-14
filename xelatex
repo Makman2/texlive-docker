@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+podman run --rm -v "$(pwd):/home/project:z" -w /home/project texlive xelatex "$@"
