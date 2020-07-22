@@ -1,4 +1,4 @@
-FROM fedora:28
+FROM fedora:31
 
 RUN dnf install -y texlive-scheme-full
 RUN python3 -m pip install pygments && dnf install -y which
