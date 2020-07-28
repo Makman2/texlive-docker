@@ -1,6 +1,7 @@
-FROM fedora:31
+FROM fedora:32
 
 RUN dnf install -y texlive-scheme-full
+RUN dnf install -y python3-pip
 RUN python3 -m pip install pygments && dnf install -y which
 RUN dnf install -y inkscape
 
