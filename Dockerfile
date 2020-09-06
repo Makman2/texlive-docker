@@ -1,4 +1,4 @@
-FROM fedora:32
+FROM fedora:33
 
 RUN dnf install -y texlive-scheme-full
 RUN dnf install -y python3-pip
